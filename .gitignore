@@ -1,0 +1,27 @@
+# Binaries
+vhoster
+vhoster.exe
+vhoster-*
+*.test
+*.out
+
+# Build output
+dist/
+bin/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies
+vendor/
+
+# Temp
+*.tmp
+.commandcode/
