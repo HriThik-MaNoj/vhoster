@@ -10,25 +10,21 @@ Written in Go with [Bubble Tea](https://github.com/charmbracelet/bubbletea).
 
 ## Install
 
-**Binary (Linux / macOS):**  
-Download the latest release from [GitHub Releases](https://github.com/HriThik-MaNoj/vhoster/releases), then:
-
 ```bash
-tar xzf vhoster_*.tar.gz
-sudo mv vhoster /usr/local/bin/
+curl -fsSL https://raw.githubusercontent.com/HriThik-MaNoj/vhoster/main/install.sh | sh
 ```
+> This auto-detects your OS/arch and puts `vhoster` in `/usr/local/bin/`.
 
-**Via Go:**
-```bash
-go install github.com/HriThik-MaNoj/vhoster@latest
-```
+The script detects whether Go is installed and picks the fastest method (go install or prebuilt binary). The binary is placed in `/usr/local/bin/vhoster`.
 
-**From source:**
+**Other options:**
+
 ```bash
-git clone https://github.com/HriThik-MaNoj/vhoster.git
-cd vhoster
-make build
-sudo make install
+# Via Go directly
+go install github.com/HriThik-MaNoj/vhoster@v0.1.0
+
+# From source
+git clone https://github.com/HriThik-MaNoj/vhoster.git && cd vhoster && make && sudo make install
 ```
 
 ## Usage
