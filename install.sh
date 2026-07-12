@@ -3,7 +3,7 @@ set -e
 
 REPO="HriThik-MaNoj/vhoster"
 BIN="vhoster"
-INSTALL_DIR="/usr/local/bin"
+INSTALL_DIR="/usr/bin"
 
 RED=$(printf '\033[0;31m')
 GREEN=$(printf '\033[0;32m')
