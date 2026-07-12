@@ -13,19 +13,8 @@ Written in Go with [Bubble Tea](https://github.com/charmbracelet/bubbletea).
 ```bash
 curl -fsSL https://raw.githubusercontent.com/HriThik-MaNoj/vhoster/main/install.sh | sh
 ```
-> This auto-detects your OS/arch and puts `vhoster` in `/usr/local/bin/`.
 
-The script detects whether Go is installed and picks the fastest method (go install or prebuilt binary). The binary is placed in `/usr/local/bin/vhoster`.
-
-**Other options:**
-
-```bash
-# Via Go directly
-go install github.com/HriThik-MaNoj/vhoster@v0.1.0
-
-# From source
-git clone https://github.com/HriThik-MaNoj/vhoster.git && cd vhoster && make && sudo make install
-```
+The script auto-detects your OS and arch, picks the fastest method (go install or prebuilt binary), and places `vhoster` in `/usr/bin/`.
 
 ## Usage
 
